@@ -1,34 +1,11 @@
 public class Solution {
 
-
     int lightsLeft = 0;
-    int distance = 0;
-
-    int rightMost = 0;
-    int leftMost = 0;
-    int current = 0;
-
-    /*while lights left !=0{
-
-
-    // go to n+1 (rightmost)
-    //turn off light  lightsLeft = n+1-1
-    //add distance
-    //go back to origin n+1 - rightmost
-    //rightmost = n+1 -1
-    //lights left = n -1
-    // add distance
-    //do it until
-
-
-    }
-         */
-
     public int distance(int n){
         lightsLeft = n+1;
-        rightMost = n ;
-        leftMost = 0;
-        distance = 0;
+       int  rightMost = n ;
+       int leftMost = 0;
+       int distance = 0;
 
         int i =0;
         while (i < n) {
